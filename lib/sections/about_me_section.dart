@@ -9,8 +9,25 @@ class AboutMeSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text(content),
+    return SizedBox(
+      width: 600,
+      child: Column(
+        children: [
+          const Text(
+            'About Me',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 36,
+            ),
+          ),
+          Text(
+            content,
+            style: const TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -9,8 +9,12 @@ class IntroSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text(content),
+    return SizedBox(
+      width: 500,
+      child: Text(
+        content,
+        style: const TextStyle(color: Colors.white),
+      ),
     );
   }
 }
