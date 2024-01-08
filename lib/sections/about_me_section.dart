@@ -9,25 +9,22 @@ class AboutMeSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: 600,
-      child: Column(
-        children: [
-          const Text(
-            'About Me',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 36,
-            ),
+    return Container(
+      margin: const EdgeInsets.symmetric(vertical: 50),
+      width: MediaQuery.of(context).size.width * 0.4,
+      child: const Column(children: [
+        Text(
+          'About Me',
+          style: TextStyle(
+            fontSize: 36,
           ),
-          Text(
-            content,
-            style: const TextStyle(
-              color: Colors.white,
-            ),
-          ),
-        ],
-      ),
+        ),
+        Text(
+          'Greetings! I am a gamer and develop games. Lots of horror games to be exact. I\'m also a huge chicken, so most horror content is seen between the strands of my eyelashes as I squint. The combination surely makes it all the more interesting. I have 5+ years of experience in indie game development with the Unity Game Engine and still continuing to learn! My passion springs from transitioning from a player to a creator, wanting to bring my unique narratives to the gaming world.',
+          textAlign: TextAlign.justify,
+          style: TextStyle(),
+        ),
+      ]),
     );
   }
 }
