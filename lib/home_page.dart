@@ -3,9 +3,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:janiceng_website/sections/about_me_section.dart';
+import 'package:janiceng_website/sections/footer_section.dart';
+import 'package:janiceng_website/sections/gallery_section.dart';
 import 'package:janiceng_website/sections/intro_section.dart';
 import 'package:janiceng_website/loading_screen.dart';
 import 'package:janiceng_website/sections/projects_section.dart';
+import 'package:janiceng_website/sections/work_experience_section.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -37,14 +40,23 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            IntroSection(content: 'content'),
-            AboutMeSection(content: 'content'),
-            ProjectsSection(),
-          ],
+        child: Center(
+          child: SizedBox(
+            width: MediaQuery.of(context).size.width,
+            child: const Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                IntroSection(content: 'content'),
+                AboutMeSection(content: 'content'),
+                WorkExperienceSection(content: []),
+                ProjectsSection(),
+                GallerySection(),
+                FooterSection(),
+              ],
+            ),
+          ),
         ),
       ),
     );

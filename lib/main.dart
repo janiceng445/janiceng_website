@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:janiceng_website/common/app_colors.dart';
 import 'package:janiceng_website/home_page.dart';
 
 void main() {
@@ -24,10 +25,11 @@ class MyApp extends StatelessWidget {
         ),
         iconTheme: const IconThemeData(color: Colors.white),
         colorScheme: ColorScheme.fromSeed(
-            seedColor: Colors.deepPurple, background: Colors.black),
+            seedColor: Colors.deepPurple,
+            background: AppColors.primaryBackgroundColor),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const SelectionArea(child: HomePage()),
     );
   }
 }
