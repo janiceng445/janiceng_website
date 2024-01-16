@@ -19,6 +19,7 @@ class WorkExperienceSection extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
+          _introParagraph(context),
           Container(
             color: Colors.white,
             height: 250,
@@ -51,6 +52,44 @@ class WorkExperienceSection extends StatelessWidget {
                     DiagonalClipperAlignment.right),
               ],
             ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _introParagraph(BuildContext context) {
+    return SizedBox(
+      width: MediaQuery.of(context).size.width * 0.5,
+      child: const Column(
+        children: [
+          Text(
+            '“Classic misdirection”',
+            style: TextStyle(
+              fontSize: 22,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            '- Leblanc (League of Legends)',
+            style: TextStyle(
+              fontSize: 12,
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+            'This quote perfectly mirrors my personal journey to becoming a game developer--a path that, much like many others, took an indirect route. The start of my career took place at Burger King, working in the back assembling burgers. It wasn\'t until later that I took my first stride into the tech industry, where I\'ve been steadily accumulating expertise in software development. In parallel, to best align my passion with game development, I took the initiative to self-learn how to create 3D games with Unity.',
+            textAlign: TextAlign.justify,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Text(
+              'Below are the job title milestones that significantly contributed to my learning journey:'),
+          SizedBox(
+            height: 20,
           ),
         ],
       ),
