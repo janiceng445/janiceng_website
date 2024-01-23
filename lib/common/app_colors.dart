@@ -24,12 +24,4 @@ class AppColors {
 
   static Color primaryBackgroundColor = const Color(0xFF030B16);
   static Color secondaryBackgroundColor = const Color(0xFF650119);
-
-  /*
-  096192
-  1171BA
-  1399C6
-  24AAE2
-  0E8C7F
-  */
 }
