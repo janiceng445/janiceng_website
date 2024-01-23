@@ -24,17 +24,17 @@ class IntroSection extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text(
+          Text(
             'Hi, I\'m Janice and I like making games.',
             style: TextStyle(
-              fontSize: 36,
+              fontSize: size == ScreenSize.large ? 36 : 32,
             ),
             textAlign: TextAlign.center,
           ),
-          const Text(
+          Text(
             'Welcome to my portfolio',
             style: TextStyle(
-              fontSize: 24,
+              fontSize: size == ScreenSize.large ? 24 : 20,
             ),
           ),
           const SizedBox(
@@ -45,22 +45,22 @@ class IntroSection extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     _profile(Icons.sunny, dayProfileLabel,
-                        dayProfileDescription, 20),
+                        dayProfileDescription, 20, size),
                     Container(
                       color: Colors.white,
                       width: 5,
                       height: 100,
                     ),
                     _profile(Icons.mode_night, nightProfileLabel,
-                        nightProfileDescription, 20),
+                        nightProfileDescription, 20, size),
                   ],
                 )
               : Column(
                   children: [
                     _profile(Icons.sunny, dayProfileLabel,
-                        dayProfileDescription, 18),
+                        dayProfileDescription, 18, size),
                     _profile(Icons.mode_night, nightProfileLabel,
-                        nightProfileDescription, 18),
+                        nightProfileDescription, 18, size),
                   ],
                 )
         ],
@@ -68,7 +68,8 @@ class IntroSection extends StatelessWidget {
     );
   }
 
-  Widget _profile(IconData icon, heading, String content, double padding) {
+  Widget _profile(
+      IconData icon, heading, String content, double padding, ScreenSize size) {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 10, horizontal: padding),
       child: Row(
@@ -87,7 +88,7 @@ class IntroSection extends StatelessWidget {
             width: 10,
           ),
           SizedBox(
-            width: 300,
+            width: size == ScreenSize.large ? 300 : 250,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

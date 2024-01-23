@@ -73,11 +73,62 @@ class ProjectsSection extends StatelessWidget {
       String name, String description, String? imageUrl, ScreenSize size,
       {Widget? belowImage}) {
     return Padding(
-        padding: const EdgeInsets.symmetric(vertical: 10),
-        child: Row(
-          children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: size == ScreenSize.large
+          ? Row(
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      height: 128,
+                      width: 128,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          width: 2,
+                          color: Colors.white,
+                        ),
+                        shape: BoxShape.circle,
+                        image: DecorationImage(
+                          image: Image.asset(
+                            'assets/teams/$imageUrl.png',
+                          ).image,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                    if (belowImage != null) ...[
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      belowImage
+                    ],
+                  ],
+                ),
+                const SizedBox(
+                  width: 20,
+                ),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        name,
+                        style: const TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        description,
+                        textAlign: TextAlign.justify,
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            )
+          : Column(
               children: [
                 Container(
                   height: 128,
@@ -102,30 +153,25 @@ class ProjectsSection extends StatelessWidget {
                   ),
                   belowImage
                 ],
-              ],
-            ),
-            const SizedBox(
-              width: 20,
-            ),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
+                const SizedBox(
+                  width: 20,
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
                     name,
                     style: const TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text(
-                    description,
-                    textAlign: TextAlign.justify,
-                  ),
-                ],
-              ),
+                ),
+                Text(
+                  description,
+                  textAlign: TextAlign.justify,
+                ),
+              ],
             ),
-          ],
-        ));
+    );
   }
 }

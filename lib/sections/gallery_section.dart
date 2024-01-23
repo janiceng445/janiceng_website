@@ -56,12 +56,13 @@ class GallerySection extends StatelessWidget {
 
   Widget _imageItem(BuildContext context, String imageUrl, ScreenSize size) {
     return GestureDetector(
-      onTap: () => _showImagePopup(
-        context,
-        imageUrl,
-        '',
-        size,
-      ),
+      onTap: () => Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => PhotoViewScreen(
+          imageUrl: imageUrl,
+          header: '',
+          description: '',
+        ),
+      )),
       child: Hero(
         tag: 'heroTag-$imageUrl',
         child: MouseRegion(
@@ -72,37 +73,6 @@ class GallerySection extends StatelessWidget {
           ),
         ),
       ),
-    );
-  }
-
-  void _showImagePopup(
-      BuildContext context, String imageUrl, String caption, ScreenSize size) {
-    showDialog(
-      context: context,
-      builder: (context) {
-        return AlertDialog(
-          content: SizedBox(
-            width: MediaQuery.of(context).size.height * 0.9,
-            height: MediaQuery.of(context).size.height *
-                (size == ScreenSize.large ? 0.5 : 0.2),
-            child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(caption),
-                    IconButton(
-                      onPressed: () => Navigator.of(context).pop(),
-                      icon: const Icon(Icons.close),
-                    )
-                  ],
-                ),
-                Expanded(child: PhotoViewScreen(imageUrl: imageUrl)),
-              ],
-            ),
-          ),
-        );
-      },
     );
   }
 }
