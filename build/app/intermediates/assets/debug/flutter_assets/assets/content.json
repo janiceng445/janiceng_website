@@ -1,0 +1,139 @@
+{
+    "intro": "Greetings! I'm Janice, a passionate game development enthusiast. By day, I navigate the data realm as a dedicated Data Scientist, and by night, I immerse myself in the virtual world, wearing the hats of both gamer and developer. With a background in diverse projects, I infuse an artistic touch into everything I create. My goal is to bring ideas to life, allowing others to experience and react to the immersive worlds I craft.",
+    "aboutme": "\"Classic misdirection\" - Leblanc.\n\nThis League of Legends quote perfectly mirrors my non-linear career journey towards my ultimate goal: becoming a game developer. A casual gamer at heart—secretly competitive—my passion is fueled by the joy games brought me, inspiring me to create for the next generation.\n\nMy story began at Burger King where I worked in the back assembling burgers to earn my first income. It then transitioned from Technical Support Assistant at iRemedy Healthcare to Software Engineer at Epic Systems and now a Data Scientist at Shift Technologies. These diverse roles have sharpened my skills in C#, React, M, HTML, and SQL.\n\nTo best align my career with my goal, I collaborated on indie games using Unity, published and recognized on Itch.io. Furthermore, I took the liberty of learning different skill sets from an artistic standpoint, including 3D modeling, web/mobile development with Flutter, and even delving minimally into sound design. Beyond coding, I explore various art forms like cooking and drawing, driven by a constant desire for self-improvement.",
+    "portfolio": [
+      {
+        "company": "JNSquared",
+        "role": "Co-developer",
+        "founded": "2019",
+        "background": "Founded during my university's final year, my best friend and I bonded over our shared passion for game development. Her exceptional musical talent and my coding skills fueled our collaboration. The initial spark for our partnership was to bring her musical creations to a global audience, leading us to embark on our first project—a digital museum to showcase both our artistic works. In our dynamic duo, we harmonized seamlessly as she was the creative genius steering the operation, while I handled the technical aspects bringing our ideas to life. Despite the museum project not reaching completion, our first horror game 'Paralysis' became a New Year's surprise success, gaining attention and traction unexpectedly.",
+        "link": "https://jn-squared.itch.io/",
+        "projects": [
+          {
+            "name": "Paralysis",
+            "date": "2020",
+            "description": "Psychological horror game simulating the terrors of sleep paralysis.",
+            "features": "First published game on itch.io, ranked #1 in top horror games, played by famous Youtuber, Markiplier"
+          },
+          {
+            "name": "Ripped/Apart",
+            "date": "2020",
+            "description": "Play as a child to find all pieces of his poster before his nightmares claim him.",
+            "features": "First time including voice acting and cinematics"
+          },
+          {
+            "name": "Don't Do It",
+            "date": "2020",
+            "description": "Don't press the red button! You find yourself suddenly waking up in an underground lab where horrors await for you outside.",
+            "features": "First time focusing on Enemy AI with random pathfinding and player detection, improving on sound design, and visual graphics"
+          },
+          {
+            "name": "Escape Room: Bank Escape",
+            "date": "2020",
+            "description": "An escape room simulation game that tests your abilities to solve puzzles within 60 minutes.",
+            "features": "First non-horror game"
+          },
+          {
+            "name": "The Interference",
+            "date": "2020",
+            "description": "Submission to Brackeys Game Jam 2020.2, a narrative psychological adventure that point questions about your past, present, and future.",
+            "features": "Submitted to a game jam made with 2 day time limit and ranked within top 100 of Graphics category"
+          },
+          {
+            "name": "Light's Out",
+            "date": "2020",
+            "description": "Submission to Summer Slow Jams August 2020: Horror Games jam. Whatever you do, keep the lights on - A horror game that focuses on 3D ambient sounds.",
+            "features": "Submitted to a game jam made within one week and ranked #3 in overall submissions"
+          },
+          {
+            "name": "Pyrolysis",
+            "date": "2021",
+            "description": "There is a killer on the loose and you're in your apartment. When you try to get out, you find yourself right back where you were except something changes each time.",
+            "features": "First time attempting a PSX style game"
+          },
+          {
+            "name": "UniAtlas",
+            "date": "2022",
+            "description": "An AR mobile app that serves to help onboarding university students navigate their way around campus.",
+            "features": "First time implementing AR features, linking to a firebase database, coding with Flutter, using Google APIs, localizations, and modeling and animating in-house 3D model"
+          },
+          {
+            "name": "CuttingBoard",
+            "date": "2023",
+            "description": "An AR mobile app aiming to empower home cooks of all levels to perfect their skills in a safe and controlled environment using revolutionary technology.",
+            "features": "Tech lead and oversaw the product, submission to the 2023 Joust competition held at the University of Central Florida"
+          }
+        ]
+      },
+      {
+        "company": "Jang Games",
+        "role": "Co-developer",
+        "founded": "2019",
+        "background": "Having spent years gaming alongside my younger brother, our shared passion for game development led us to collaborate on our inaugural project, 'Hacked.' This experience marked our introduction to the Unity Game Engine, providing a valuable learning opportunity. For me, it served as the initial venture into implementing enemy AI, adding an exciting layer to our gaming endeavors. Despite the game remaining unpublished, the journey not only strengthened our bond as siblings but also laid the foundation for future collaborative ventures in the realm of game development.",
+        "link": "https://jang-games.itch.io/",
+        "projects": [
+          {
+            "name": "Cheating Death",
+            "date": "2021",
+            "description": "A horror mystery game where you play as a detective trying to solve a crime by finishing all your paperwork. And... you're not alone."
+          },
+          {
+            "name": "Cheating Fate",
+            "date": "2021",
+            "description": "Direct sequel to Cheating Death, you are tasked with filling out a digital form that determines whether a murderer is guilty or not guilty."
+          }
+        ]
+      },
+      {
+        "company": "Jing Anvil",
+        "role": "Developer",
+        "founded": "2023",
+        "background": "When I'm not working on games with others, I use my free time to refine and fine-tune scripts—a kind of personal training ground for improving my skills. These scripts have become a useful toolkit for various game projects, saving us from redoing a lot of work. JingAnvil stands apart from my previous collaborations, serving as a set of ready-to-use tools that seamlessly integrate into future games, expediting the process. Releases under this name primarily aim to validate the usability of the scripts.",
+        "link": "https://jinganvil.itch.io/",
+        "projects": [
+          {
+            "name": "Photo the Red Dot",
+            "date": "2023",
+            "description": "A classic PSX horror style game in which you find yourself taking up a task advertised on the television to earn some quick cash."
+          }
+        ]
+      },
+      {
+        "company": "Nightforge Studio",
+        "role": "Co-developer",
+        "founded": "2024",
+        "background": "[To be determined]",
+        "link": "",
+        "projects": [
+          {
+            "name": "ReCursed",
+            "date": "2024",
+            "description": "A psychological horror game that plays tricks on your mind with the theme of recursion."
+          }
+        ]
+      }
+    ],
+    "work": [
+        {
+          "company": "iRemedy Healthcare Inc",
+          "description": "Published content pages on the Magneto platform, designed and implemented WordPress sites from wireframes using HTML/CSS, and produced mockups and prototype interfaces for new web apps with Balsamiq.",
+          "role": "Technical Support Assistant | Independent Contractor",
+          "technologies": "HTML, CSS",
+          "year": "2016-2020"
+        },
+        {
+          "company": "MyChart Care Companion",
+          "description": "Developed a segment of MyChart Care Companion called \"Education\" that holds a compilation of educational documents, notes, audio, video, and more for inpatient and/or outpatient users to learn about their procedures, diagnosis, treatment care plans, etc. Additionally developed data models and translations for XML schema imports to provide a user-friendly tool for 3rd party vendors.",
+          "role": "Software Engineer | Lead Developer",
+          "technologies": "React, Typescript, SASS, C#, M",
+          "year": "2020-2022"
+        },
+        {
+          "company": "Shift Technology",
+          "description": "Helped implement scenarios that improved the AI for insurance fraud detections for claims in areas like motor and healthcare.",
+          "role": "Senior Data Scientist",
+          "technologies": "C#, SQL",
+          "year": "2022-Present"
+        }
+    ]
+  }
