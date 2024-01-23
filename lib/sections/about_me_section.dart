@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:janiceng_website/common/app_colors.dart';
 import 'package:janiceng_website/common/screensize.dart';
 import 'package:janiceng_website/common/section_header.dart';
 
@@ -16,7 +15,6 @@ class AboutMeSection extends StatelessWidget {
 
     return Container(
       width: MediaQuery.of(context).size.width,
-      color: AppColors.secondaryBackgroundColor,
       padding: const EdgeInsets.symmetric(vertical: 50),
       child: Column(children: [
         const SectionHeader(label: 'About Me'),
