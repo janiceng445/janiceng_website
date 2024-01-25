@@ -74,12 +74,7 @@ class IntroSection extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: 10, horizontal: padding),
       child: Row(
         children: [
-          Container(
-            decoration: BoxDecoration(
-              shape: BoxShape.rectangle,
-              border: Border.all(color: Colors.white),
-              borderRadius: BorderRadius.circular(10),
-            ),
+          SizedBox(
             height: 64,
             width: 64,
             child: Icon(icon),

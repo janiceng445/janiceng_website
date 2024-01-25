@@ -40,7 +40,7 @@ class ProjectsSection extends StatelessWidget {
           ),
           _projectTeam(
             'UniAtlas',
-            'Lead developer of an user-friendly AR mobile app that provides self-guided tours and indoor navigation for users to navigate large campuses. One of the 7 finalists to the University of Central Florida\'s UTVS (UCF Technology Venture Symposium Pitch Competition) of 2022.',
+            'Lead developer of a user-friendly AR mobile app that provides self-guided tours and indoor navigation for users to navigate large campuses. One of the 7 finalists to the University of Central Florida\'s UTVS (UCF Technology Venture Symposium Pitch Competition) of 2022.',
             'uniatlas',
             size,
           ),
