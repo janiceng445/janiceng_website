@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:janiceng_website/common/photo_view_screen.dart';
 import 'package:janiceng_website/common/screensize.dart';
+import 'package:janiceng_website/common/section_header.dart';
 
 class GallerySection extends StatelessWidget {
   const GallerySection({super.key});
@@ -30,6 +31,7 @@ class GallerySection extends StatelessWidget {
           (size == ScreenSize.large ? 0.5 : 0.9),
       child: Column(
         children: [
+          const SectionHeader(label: 'Project Gallery'),
           const Divider(
             height: 50,
           ),

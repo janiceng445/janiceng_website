@@ -18,6 +18,9 @@ class ProjectsSection extends StatelessWidget {
       child: Column(
         children: [
           const SectionHeader(label: 'Personal Projects'),
+          const Divider(
+            height: 50,
+          ),
           _projectTeam(
             'JNSquared',
             'Co-developer of a small indie game development team with 8 published titles on itch.io. Three games have ranked #1 on Top Popular Horror Games category on the platform as well as garnered playthroughs by famous YouTubers with over millions of views. Additionally participated in Game Jams under this name.',
