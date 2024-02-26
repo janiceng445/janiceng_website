@@ -3,10 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "94c2aaec97d6bf461adaa4d346ebb439",
-"assets/AssetManifest.smcbin": "2b9c1b9028db30d93032f30185025918",
+const RESOURCES = {"assets/AssetManifest.json": "3b43af350e95c7ef791cfac245295d46",
+"assets/AssetManifest.smcbin": "cb676ad9ac233b0faecb6de1630cb319",
 "assets/assets/content.json": "c54508ed2dbfb2e9b7de3e0e82560f3c",
 "assets/assets/projects/bankescape.png": "7e902b64467cd09397b0647d4fd6c850",
+"assets/assets/projects/carecannon.png": "7c59b3940e40b28c55ef5586641d7538",
 "assets/assets/projects/cheatingdeath.png": "7a4e0ee13976106d039f7b35c8f9bc26",
 "assets/assets/projects/cheatingfate.png": "89e677a401dc4499f0a836be0f6689af",
 "assets/assets/projects/cuttingboard.png": "7a50a48981ae9e23c5c85b10dc01ac93",
@@ -48,9 +49,9 @@ const RESOURCES = {"assets/AssetManifest.json": "94c2aaec97d6bf461adaa4d346ebb43
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "71383eeb8bae82f2bf16da973876d957",
-"/": "71383eeb8bae82f2bf16da973876d957",
-"main.dart.js": "e2dc66e89b6b950df93b68b2d02f4f44",
+"index.html": "5f066221a1832ac559985dfea9e3430d",
+"/": "5f066221a1832ac559985dfea9e3430d",
+"main.dart.js": "98a263dd0289fe8c3d808afb65c78e56",
 "manifest.json": "940592a263686a9df9ee2d0057b2a74e",
 "version.json": "0955ff8db4ff2182911dd93357aeeea4"};
 // The application shell files that are downloaded before a service worker can
