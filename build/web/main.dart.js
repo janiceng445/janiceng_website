@@ -69244,12 +69244,12 @@ A.Ee.prototype={
 H(a){var s=null
 return A.ds(s,s,s,s,s,100,s,s,s)}}
 A.Ej.prototype={
-H(a){var s,r,q=null,p=t.w,o=new A.mM().is(A.bg(a,q,p).w.a),n=A.a(["bankescape","dontdoit","dontdoit2","lightsout","paralyzis","pyrolyzis","rippedapart","theinterference","cheatingdeath","cheatingfate","uniatlas","cuttingboard","carecannon"],t.s)
+H(a){var s,r,q=null,p=t.w,o=new A.mM().is(A.bg(a,q,p).w.a),n=A.a(["bankescape","dontdoit","dontdoit2","lightsout","paralyzis","pyrolyzis","rippedapart","theinterference","cheatingdeath","cheatingfate","uniatlas","cuttingboard","photoreddot","carecannon"],t.s)
 p=A.bg(a,q,p).w
 s=o===B.bu
 r=s?0.5:0.9
 s=s?4:3
-return A.dS(A.el(A.a([B.Ag,new A.Er(new A.a3q(s,5,5,1),new A.a3l(new A.Wr(this,n,o),13,!0,!0,!0,q),q,B.aB,!1,q,q,B.Gh,!0,q,13,B.ak,B.I6,q,B.aj,q)],t.p),B.a1,B.a2,B.W),q,p.a.a*r)},
+return A.dS(A.el(A.a([B.Ag,new A.Er(new A.a3q(s,5,5,1),new A.a3l(new A.Wr(this,n,o),14,!0,!0,!0,q),q,B.aB,!1,q,q,B.Gh,!0,q,14,B.ak,B.I6,q,B.aj,q)],t.p),B.a1,B.a2,B.W),q,p.a.a*r)},
 Yn(a,b,c){var s=null
 return A.tX(s,A.aeO(A.kw(A.aeR(b,B.fA),B.aW,s,s,s),s,s,s,"heroTag-"+b,!1),B.ak,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.Wq(a,b),s,s,s,s,s,s)}}
 A.Wr.prototype={

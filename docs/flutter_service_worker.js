@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "3b43af350e95c7ef791cfac245295d46",
-"assets/AssetManifest.smcbin": "cb676ad9ac233b0faecb6de1630cb319",
+const RESOURCES = {"assets/AssetManifest.json": "145a58dc64ad413253ae93213976f54d",
+"assets/AssetManifest.smcbin": "3684f764340a6f5f7669712085ccdd68",
 "assets/assets/content.json": "c54508ed2dbfb2e9b7de3e0e82560f3c",
 "assets/assets/projects/bankescape.png": "7e902b64467cd09397b0647d4fd6c850",
 "assets/assets/projects/carecannon.png": "7c59b3940e40b28c55ef5586641d7538",
@@ -18,6 +18,7 @@ const RESOURCES = {"assets/AssetManifest.json": "3b43af350e95c7ef791cfac245295d4
 "assets/assets/projects/dontdoit2.png": "29102b6cbebe410c18da8c6ba730a974",
 "assets/assets/projects/lightsout.png": "af7b3fbd1b26c985fd11da4d576c09e6",
 "assets/assets/projects/paralyzis.png": "279d721f6378283d0698607fa697c250",
+"assets/assets/projects/photoreddot.png": "9027fce0b6686bf21f44336a88b19a6a",
 "assets/assets/projects/pyrolyzis.png": "9fa326c94259a1f110a0ddea0bb6b84b",
 "assets/assets/projects/rippedapart.png": "cf2f19bd63ab3db2f355cb1edecaa21d",
 "assets/assets/projects/theinterference.png": "f38aaee9deb52a42355f64aa796f4c9a",
@@ -49,9 +50,9 @@ const RESOURCES = {"assets/AssetManifest.json": "3b43af350e95c7ef791cfac245295d4
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5f066221a1832ac559985dfea9e3430d",
-"/": "5f066221a1832ac559985dfea9e3430d",
-"main.dart.js": "98a263dd0289fe8c3d808afb65c78e56",
+"index.html": "9e632208bbf9ae68d59d92626ecfaa46",
+"/": "9e632208bbf9ae68d59d92626ecfaa46",
+"main.dart.js": "695452cc9c3806ddf94c64a80d30a861",
 "manifest.json": "940592a263686a9df9ee2d0057b2a74e",
 "version.json": "0955ff8db4ff2182911dd93357aeeea4"};
 // The application shell files that are downloaded before a service worker can
