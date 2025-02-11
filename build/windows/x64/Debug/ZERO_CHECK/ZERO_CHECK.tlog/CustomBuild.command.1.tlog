@@ -1,0 +1,10 @@
+^C:\USERS\JING\DOCUMENTS\GITHUB\JANICENG_WEBSITE\BUILD\WINDOWS\CMAKEFILES\20C299A7B8A77DFDCA14CA67CAECBE03\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Jing/Documents/GitHub/janiceng_website/windows -BC:/Users/Jing/Documents/GitHub/janiceng_website/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jing/Documents/GitHub/janiceng_website/build/windows/janiceng_website.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

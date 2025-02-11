@@ -24,6 +24,8 @@ class GallerySection extends StatelessWidget {
       "cuttingboard",
       "photoreddot",
       "carecannon",
+      "recursed",
+      "1000ft",
     ];
 
     return SizedBox(

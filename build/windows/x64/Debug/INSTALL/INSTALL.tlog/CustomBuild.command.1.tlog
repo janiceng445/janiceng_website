@@ -1,0 +1,10 @@
+^C:\USERS\JING\DOCUMENTS\GITHUB\JANICENG_WEBSITE\BUILD\WINDOWS\CMAKEFILES\20C299A7B8A77DFDCA14CA67CAECBE03\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

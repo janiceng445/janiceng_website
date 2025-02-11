@@ -32,14 +32,14 @@ class ProjectsSection extends StatelessWidget {
                     _launchExternalLink('https://jn-squared.itch.io/')),
           ),
           _projectTeam(
-            'Jang Games',
-            'Co-developer of a small indie game development team with 2 published titles with direct contribution. Both games ranked within top 10 in Popular Horror Games category on itch.io. Attributed as the first inaugural step to game development in Unity Game Engine.',
-            'janggames',
+            'Night Forge',
+            'Co-developer of a small indie game development team with 4 published titles with direct contribution. Two games ranked within top 10 in Popular Horror Games category on itch.io. Attributed as the first inaugural step to game development in Unity Game Engine.',
+            'nightforge',
             size,
             belowImage: InkWell(
                 child: const Text('Link to itch.io'),
                 onTap: () =>
-                    _launchExternalLink('https://jang-games.itch.io/')),
+                    _launchExternalLink('https://nightforge.itch.io/')),
           ),
           _projectTeam(
             'UniAtlas',
