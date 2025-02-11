@@ -3,9 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "145a58dc64ad413253ae93213976f54d",
-"assets/AssetManifest.smcbin": "3684f764340a6f5f7669712085ccdd68",
+const RESOURCES = {"assets/AssetManifest.json": "00b4d591bb1ffbc8a2503447cd61d392",
+"assets/AssetManifest.smcbin": "e378058657cb50b9ea2822fa47ba4aaf",
 "assets/assets/content.json": "c54508ed2dbfb2e9b7de3e0e82560f3c",
+"assets/assets/projects/1000ft.png": "b129f69cb7c52e4dac16160a5e24f8f0",
 "assets/assets/projects/bankescape.png": "7e902b64467cd09397b0647d4fd6c850",
 "assets/assets/projects/carecannon.png": "7c59b3940e40b28c55ef5586641d7538",
 "assets/assets/projects/cheatingdeath.png": "7a4e0ee13976106d039f7b35c8f9bc26",
@@ -20,6 +21,7 @@ const RESOURCES = {"assets/AssetManifest.json": "145a58dc64ad413253ae93213976f54
 "assets/assets/projects/paralyzis.png": "279d721f6378283d0698607fa697c250",
 "assets/assets/projects/photoreddot.png": "9027fce0b6686bf21f44336a88b19a6a",
 "assets/assets/projects/pyrolyzis.png": "9fa326c94259a1f110a0ddea0bb6b84b",
+"assets/assets/projects/recursed.png": "0185a0bb811af827ec8b133c53286f54",
 "assets/assets/projects/rippedapart.png": "cf2f19bd63ab3db2f355cb1edecaa21d",
 "assets/assets/projects/theinterference.png": "f38aaee9deb52a42355f64aa796f4c9a",
 "assets/assets/projects/uniatlas.png": "44c75ca73473876e144fcbd8079a5bd1",
@@ -31,6 +33,7 @@ const RESOURCES = {"assets/AssetManifest.json": "145a58dc64ad413253ae93213976f54
 "assets/assets/teams/janggames.png": "524ef2f740127bb641d14dc83eb32feb",
 "assets/assets/teams/jinganvil.png": "10c60557a51abe54a2bb1a99bb868781",
 "assets/assets/teams/jnsquared.png": "6f35fe5adfacc459502f3a1761a1e2dc",
+"assets/assets/teams/nightforge.png": "f37ba0b6bc5b0851f38c6b6332c69c6c",
 "assets/assets/teams/uniatlas.png": "69009af83736c886e82be201085c0480",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "caee083f0e370bfcc3e10708a4e0ec1b",
@@ -50,9 +53,9 @@ const RESOURCES = {"assets/AssetManifest.json": "145a58dc64ad413253ae93213976f54
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "8de817b956de7274faa357d112c25aec",
-"/": "8de817b956de7274faa357d112c25aec",
-"main.dart.js": "0887cadb157c3b43dfabfb0cc51bbe62",
+"index.html": "5aed4d225d9100a68f1d21fb24b0dba2",
+"/": "5aed4d225d9100a68f1d21fb24b0dba2",
+"main.dart.js": "3cc1ad535b3f8e24c46673554e57b6dc",
 "manifest.json": "940592a263686a9df9ee2d0057b2a74e",
 "version.json": "0955ff8db4ff2182911dd93357aeeea4"};
 // The application shell files that are downloaded before a service worker can
